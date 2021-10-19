@@ -1,0 +1,124 @@
+/*html, body {height:100%;}
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle;}*/
+
+html {
+  padding: 20px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80);
+  font-family: Helvetica, Arial, "sans-serif";
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: white;
+  border-style: ridge;
+  border-color: ghostwhite;
+}
+
+.resumeTitle {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.experienceTitle {
+  border-style: inset;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.addressContainer {
+  height: 500px;
+  float: right;
+  width: 25%;
+  vertical-align: bottom;
+  border: solid 1px #000;
+  padding: 5px;
+  text-align: center;
+}
+
+.content {
+  width: 70%;
+  vertical-align: bottom;
+  padding: 5px;
+  display: contents;
+}
+
+.educationContainer {
+  float: left;
+  width: 70%;
+  vertical-align: bottom;
+  padding: 5px;
+  right: -60px;
+}
+
+.image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  padding-top: 5px;
+  border: 2px solid black;
+  padding: 0px;
+}
+
+.image:hover {
+  background-color: purple;
+  filter: blur(0.9px);
+}
+
+.resumeNumber {
+  margin: 0;
+  text-align: center;
+  margin-top: -26px;
+  margin-bottom: 10px;
+}
+
+.contactInformation {
+  border-style: solid;
+  background-color: floralwhite;
+  margin-top: 15px;
+}
+
+.mainButton {
+  background-color: #2da44e;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.subTitle {
+  margin-top: -10px;
+  font-style: italic;
+}
+
+.col-sm-2 {
+  margin-top: 11px;
+  font-style: italic;
+}
+
+.listItems {
+  padding-top: 15px;
+}
+
+.mainImage {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bootcamp-link:hover,
+.degree-link:hover {
+  color: #522398;
+  text-indent: 1em;
+}
+
+.bootcamp-link:visited,
+.degree-link:visited {
+  color: #6d5297;
+  text-indent: 1em;
+}
